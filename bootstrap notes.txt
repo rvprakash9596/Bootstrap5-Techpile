@@ -1,0 +1,213 @@
+Bootstrap color
+===============
+primary
+secondary
+info
+success
+danger 
+warning
+dark
+light
+-----------------
+Background color
+=================
+bg-colorname
+bg-danger
+bg-success
+bg-dark
+bg-light
+------------------
+text-colorname
+text-danger
+text-light
+text-dark
+text-info
+------------------
+font-size
+fs-(1-5)
+
+fs-1
+fs-2
+fs-3
+fs-4
+fs-5
+--------------------
+text-align
+
+BS4 textleft  => text-left and textright => text-right 
+textcenter => text-center
+
+BSV5 =>  textleft => text-start  | textcenter => text-center | textright => text-end
+------------------------------
+Heading
+========
+h1 - h6
+
+background with text color
+
+text-bg-colorname
+text-bg-danger
+text-bg-success
+text-bg-warning
+text-bg-dark
+text-bg-light
+=======================
+text-transform:uppercase | lowercase | capitalize
+-----------------------
+text-uppercase
+text-lowercase
+text-capitalize
+----------------------
+Bootstrap Button
+
+btn btn-colorname
+btn btn-danger
+btn btn-success
+btn btn-info
+btn btn-dark
+btn btn-light
+
+btn btn-outline-colorname
+btn btn-danger
+btn btn-success
+btn btn-info
+btn btn-dark
+btn btn-light
+
+-------------
+
+Padding :
+----------
+BSV 4
+
+p-(0-5) => padding-left || padding-right || padding-top || padding-bottom
+p1-(0-5)=>padding-left
+p1-(0-5)=>padding-right
+
+
+px-(0-5) => padding-left || padding-right
+py-(0-5) => padding-top || padding-bottom
+
+pt-5
+pb-5
+ps-5
+pe-5
+fs-1
+
+
+
+BSV 5 :
+-------
+
+p-(0-5)=> padding-start || padding-end || padding-top || padding-bottom
+
+
+margin:
+--------
+BSV 4
+
+m-(0-5)=> margin-left || margin-right || margin-top || margin-bottom
+mt-(0-5)=> margin-top
+mb-(0-5)=> margin-bottom
+mr-(0-5)=> margin-right
+ml-(0-5)=> margin-left
+mx-(0-5)=> margin-left || margin-right
+my-(0-5)=> margin-top || margin-bottom
+
+margin:0px auto;
+mx-auto
+-------
+
+
+BSV 5
+
+m-(0-5)=> margin-left || margin-right || margin-top || margin-bottom
+mt-(0-5)=> margin-top
+mb-(0-5)=> margin-bottom
+me--(0-5)=> margin-right
+ms-(0-5)=> margin-left
+mx-(0-5)=> margin-left || margin-right
+my-(0-5)=> margin-top || margin-bottom
+
+margin:0px auto;
+mx-auto
+--------------------------------------------------------------------------------------------------------
+
+width:
+======
+w-25 =>25%
+w-50 =>50%
+w-75 =>75%
+w-100 =>100%
+
+====================
+image responsive
+
+BSV 4
+img-responsive
+
+BSV 5
+img-fluid
+img-thumbnail
+
+
+=============
+GRID SYSTEM :
+=============
+Row
+Col
+
+
+1 Row => 12 Col
+
+=====================================================================================================
+Icons on Forms :
+----------------
+
+<div class=""input-group>
+<span class="input-group-text">Name</span>
+<input type="text" class="form-control" />  
+</div>
+
+
+Break Points :
+------------------------------------------------------
+sm : small screen <576px (smartphone)         viewport
+md : medium screen devices <768px (Tablet)
+lg : large screen devices <992px (Laptop Desktop)
+xl : extra large screen devices <1200px 
+xxl : extra extra large screen devices <1400px
+
+col-sm-12
+
+==============================================================================================
+
+btn btn-colorname
+
+border border-(0-5) border-colorname
+border border-2 border-danger
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

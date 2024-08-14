@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grid Day 2</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+<style>
+    .a{
+      min-height: 600px;  
+    }
+    .b{
+        min-height: 200px;
+    }
+    .bg-mycolor{
+        background-color: #7cc93d !important;
+    }
+</style>
+</head>
+<body>
+<div class="container-fluid bg-danger a">
+<div class="row">
+    <div class="col-1 a bg-warning"></div>
+    <div class="col-10 a bg-danger">
+        <div class="row bg-primary b">
+            <div class="col-6 bg-info"></div>
+            <div class="col-6 bg-secondary"></div>
+        </div>
+        <div class="row b bg-warning">
+            <div class="col-2 b bg-mycolor"></div>
+            <div class="col-8 b bg-warning"></div>
+            <div class="col-2 b bg-success"></div>
+        </div>
+
+        <div class="row b bg-secondary"></div>
+    </div>
+    <div class="col-1 a bg-primary"></div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Modal Login Form in bootstrap</title>
+
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="js/bootstrap.bundle.js"></script>
+<link rel="stylesheet" href="webfonts/">
+
+<style>
+body{
+    background: url(images/f.jpg);
+    background-size: 100% 100%;
+}
+:root
+{
+--mycolor:teal;
+}
+.bg-mycolor
+{
+background: var(--mycolor) !important;
+}
+.txt-mycolor
+{
+color:var(--mycolor) !important;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+
+    <div class="col-sm-12">
+        <!-- Start Modal -->
+            
+<!-- Button trigger modal -->
+    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Open Modal</a>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+    
+        <div class="modal-body">
+            <div class="fs-2 text-center">
+                Login <b class="text-info">Form</b> 
+                <a href="#" data-bs-dismiss="modal" class="btn btn-outline-danger ms-5 mb-2">X</a>
+                
+            <div class="container-fluid">
+                <div class="row">
+                
+                    <div class="col-12 p-5 bg-light a mx-auto " style="margin-top: 10%;">
+                        <div class="text-center fs-2" style="transform: translateY(-15px);">Login 
+                            <b class="txt-mycolor">Form<i class="fa-solid fa-key fa-spin"></i></b>
+                        </div><br>
+                        <div class="input-group mb-5">
+                            <span class="input-group-text bg-mycolor text-light">
+                            <i class="fa-solid fa-user"></i>
+                            </span>
+                            <input type="text" class="form-control " placeholder="UserName">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text bg-mycolor text-light">
+                            <i class="fa-solid fa-key"></i></span>
+                            <input type="text" class="form-control " placeholder="Password">
+                        </div>
+                
+                        <div style="margin-left: 170px;">
+                        <input type="submit" class="btn bg-mycolor text-light" value="Submit">
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+                
+
+        </div>
+        
+      </div>
+    </div>
+  </div>        
+        <!-- End Modal -->
+    </div>
+
+</div>
+
+
+
+</div>
+</body>
+</html>

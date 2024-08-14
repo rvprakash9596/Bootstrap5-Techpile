@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Login Form Using Bootstrap</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="webfonts/">
+<style>
+:root
+{
+--mycolor:#00f104;
+}
+.bg-mycolor
+{
+background: var(--mycolor) !important;
+}
+.txt-mycolor
+{
+color:var(--mycolor) !important;
+}
+/* .a{
+    min-height: 300px;
+} */
+</style>
+</head>
+<body class="bg-mycolor">
+<div class="container-fluid">
+<div class="row">
+
+    <div class="col-4 p-5 bg-light a mx-auto " style="margin-top: 10%;">
+        <div class="text-center fs-2" style="transform: translateY(-15px);">Login 
+            <b class="txt-mycolor">Form<i class="fa-solid fa-key fa-spin"></i></b>
+        </div><br>
+        <div class="input-group mb-3">
+            <span class="input-group-text bg-mycolor text-light">
+            <i class="fa-solid fa-user"></i>
+            </span>
+            <input type="text" class="form-control mb-4" placeholder="UserName">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text bg-mycolor text-light">
+            <i class="fa-solid fa-key"></i></span>
+            <input type="text" class="form-control mb-4" placeholder="Password">
+        </div>
+
+        <div style="margin-left: 170px;">
+            <input type="submit" class="btn bg-mycolor text-light" value="Submit">
+        </div>
+    </div>
+	
+</div>
+</div>
+
+</body>
+</html>

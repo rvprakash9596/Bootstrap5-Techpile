@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>Task 2 Reg Form</title>
+               <link href="css/bootstrap.css" rel="stylesheet"/>
+                <link href="css/all.css" rel="stylesheet"/>
+                <script src="js/bootstrap.bundle.js"></script>
+
+                <style>
+                        :root{
+                               --color1:linear-gradient(red,purple);
+                        }
+                        .bg-color{
+                                background:var(--color1) !important;
+                        }
+                        .txt-color{
+                                color:var(--color1) !important;
+                        }
+                     .x{
+                        min-height:400px;
+                        margin-top:20px;
+                        border-radius:20px;
+                        box-shadow:0px 0px 10px 4px gray;
+                     }
+                     .input-group{
+                        border-radius:50%;
+                     }
+                     .b{
+                        border-radius:30px;
+                        min-height:400px;
+                        padding-top:200px;
+                
+                     }
+                     .p{
+                        padding-left:40px;
+                        padding-right:40px;
+                     }
+                        </style>
+  </head>     
+  <body>
+        <div class="container-fluid">
+                <div class="row">
+                <div class="col-sm-2">
+                        <h1 style="color:purple;transform:rotate(-90deg);margin-top:400px;font-size:60px; font-weight: bold;">BOOTSTRAP4</h1>
+                </div>
+                <div class="col-sm-9 x py-4 bg-light" style="margin-top:120px;">
+                        <div class="row">
+                         <div class="col-sm-7 p">
+                                <div class="txt-color fs-5 text-center py-3"><span style="color:purple;" ><h2>Create new account</h2></span></div>
+                <div class="input-group mb-3 " >
+                        <span class="input-group-text bg-mycolor text-dark">
+                                <i class="fa-solid fa-user" style="color:purple;"></i>
+                        </span>
+                        <input type="text" placeholder="Username" class="form-control" />
+                </div>
+
+                <div class="input-group mb-3">
+                        <span class="input-group-text bg-mycolor ">
+                                <i class="fa-solid fa-envelope" style="color:purple;"></i>
+                        </span>
+                        <input type="text" placeholder="Username" class="form-control"/>
+                </div>
+                <div class="input-group mb-3 " style="border-radius:50px">
+                        <span class="input-group-text txt-color text-dark">
+                                <i class="fa-solid fa-key" style="color:purple;"></i>
+                        </span>
+                        <input type="text" placeholder="Password" class="form-control"  />
+                </div>
+                <div class=" py-2">
+                <input type="checkbox"/><span >I read and agree to Terms & Conditions</span></div>
+                <input type="submit" value="CREATE ACCOUNT " class="btn bg-color text-light form-control"  style="border-radius:50px"/>
+                         </div>
+                         <div class="col-sm-5 bg-color px-5 pt-5 text-light b">
+                                <div class="row">
+                                        <h1>Hello World</h1>
+                                        <p style="text-align:justify;">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document </p>
+                                        <input type="button" value="Learn More" style="width:110px;border-radius:50px;border:1px solid white;" class="bg-color text-light mx-3"/>
+                                </div>
+                         </div>
+                        </div>
+                </div>
+                <div class="col-sm-1"></div>
+                </div>
+        </div>
+  </body>   
+</html>
